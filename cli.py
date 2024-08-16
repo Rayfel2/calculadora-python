@@ -1,5 +1,5 @@
 # cli.py
-from calculadora import sumar
+from calculadora import sumar, restar
 
 def main():
     while True:
