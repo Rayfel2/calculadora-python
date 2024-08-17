@@ -8,3 +8,5 @@ def sumar(a, b):
 def Resta(a, b):
     return a - b
 
+def Mult(a, b):
+    return a * b
