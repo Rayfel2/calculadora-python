@@ -1,4 +1,4 @@
-# cli.py
+# cli.py reload
 from calculadora import sumar, resta, mult, dividir
 
 def main():
@@ -30,3 +30,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
