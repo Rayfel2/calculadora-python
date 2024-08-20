@@ -16,3 +16,13 @@ def dividir(a, b):
         return a / b
     else:
         return "Error: División por cero no permitida."
+
+def factorial(n):
+    if n < 0:
+        raise ValueError("El factorial no está definido para números negativos")
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial_recursivo(n - 1)
+    
+def potencia(a, b):
+    return a ** b
