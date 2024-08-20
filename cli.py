@@ -1,5 +1,5 @@
 # cli.py reload
-from calculadora import sumar, resta, mult, dividir
+from calculadora import sumar, resta, mult, dividir, potencia
 
 def main():
     while True:
@@ -8,7 +8,8 @@ def main():
         print("2. Restar")
         print("3. Multiplicar")
         print("4. Dividir")
-        print("5. Salir")
+        print("5. Potencia")
+        print("6. Salir")
         
         eleccion = input("Elige una opción: ")
         
@@ -25,6 +26,8 @@ def main():
             print(f"Resultado: {mult(num1, num2)}")
         elif eleccion == '4':
             print(f"Resultado: {dividir(num1, num2)}")
+        elif eleccion == '5':
+            print(f"Resultado: {potencia(num1, num2)}")
         else:
             print("Opción no válida")
 
